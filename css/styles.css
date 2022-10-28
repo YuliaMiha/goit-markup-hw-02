@@ -1,0 +1,88 @@
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+}
+
+body{
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+
+.logo{
+    color: #2196F3;
+}
+/* Site nav */
+
+.site-nav .link{
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover
+.site-nav .link:focus{
+    color: var(--title-text-color);
+}
+
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
+.auth-nav .tel{
+    color: var(--primary-text-color);
+}
+.auth-nav .mail{
+    color: var(--accent-color);
+}
+/* Hero */
+
+.hero-title{
+    color: var(--primary-white-color);
+}
+.button{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+
+}
+/* Portfolio */
+
+.filter-title .filter{
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+}
+
+.examples-title .examples{
+    color: var(--title-text-color);
+}
+
+/* Section */
+
+.section-title{
+    color: var(--title-text-color);
+}
+.section .title{
+    color: var(--title-text-color);
+}
+
+/* Feature */
+
+.feature .feature-title{
+    color: var(--title-text-color);
+}
+/* Comands */
+
+.comands .comands-title{
+    color: var(--title-text-color);
+}
+
+.comands .title{
+    color: var(--title-text-color);
+}
+/* Footer */
+.end-title {
+    color: var(--primary-white-color);
+}
+
+.end .title{
+    color: rgba(255, 255, 255, 0.6);
+}
