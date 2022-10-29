@@ -8,20 +8,36 @@
 body{
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 3%;
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 .logo{
-    color: #2196F3;
+    color: #000000;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.colorlogo{
+    color:#2196F3;
 }
 /* Site nav */
 
 .site-nav .link{
     color: var(--title-text-color);
+    font-weight: 500; 
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 2%;
 }
 
-.site-nav .link:hover
+.site-nav .link:hover,
 .site-nav .link:focus{
-    color: var(--title-text-color);
+    color: var(--accent-color);
 }
 
 .site-nav .link.current{
@@ -30,59 +46,155 @@ body{
 
 .auth-nav .tel{
     color: var(--primary-text-color);
+    font-weight: 500;
+    letter-spacing: 2%;
+    font-size: 14px;
+     line-height: 1.14;  
 }
 .auth-nav .mail{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    letter-spacing: 2%;
+    font-size: 14px;
+    line-height: 1.14;
+    
+}
+.auth-nav .tel:hover,
+.auth-nav .tel:focus{
+    color: var(--accent-color);
+}
+
+.auth-nav .mail:hover,
+.auth-nav .mail:focus {
     color: var(--accent-color);
 }
 /* Hero */
 
 .hero-title{
     color: var(--primary-white-color);
+    font-weight: 900;
+    letter-spacing: 6%;
+    font-size: 44px;
+    line-height: 1.36; 
+    align: center;  
 }
 .button{
     color: var(--primary-white-color);
-    background-color: var(--accent-color);
+    background-color: rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.86; 
+    align: center; 
+    vertical-align: center;
+    letter-spacing: 6%;
+}
 
+.button:hover,
+.button:focus{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
 }
 /* Portfolio */
 
-.filter-title .filter{
+ .filter{
     color: var(--title-text-color);
     background-color: #F5F4FA;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
+.filter:hover,
+.filter:focus{
+    color: var(--title-text-color);
+    background-color: var(--accent-color);
+        cursor: pointer;
+}
+
+ .filterbut{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+     line-height: 1.6;
+}
 .examples-title .examples{
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 6%;
 }
-
+.examples-title .text{
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 3%;
+}
+.examples-title .text:hover,
+.examples-title .text:focus {
+    color: var(--accent-color);
+}
+ 
 /* Section */
 
 .section-title{
     color: var(--title-text-color);
-}
-.section .title{
-    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px; 
+    line-height: 1.14;
 }
 
+.section .title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
 /* Feature */
 
 .feature .feature-title{
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
 }
 /* Comands */
 
 .comands .comands-title{
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
 }
 
 .comands .title{
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
 }
 /* Footer */
-.end-title {
+.page-footer .mail,
+.page-footer .tel{
+    color: rgba(255, 255, 255, 0.6);
+}
+.page-footer .mail:hover,
+.page-footer .mail:focus,
+.page-footer .tel:hover,
+.page-footer .tel:focus{
+    color: var(--accent-color);
+}
+
+.page-footer .end-title{
     color: var(--primary-white-color);
 }
 
-.end .title{
-    color: rgba(255, 255, 255, 0.6);
+.page-footer .end-title:hover,
+ .page-footer .end-title:focus{
+    color: var(--accent-color);
 }
