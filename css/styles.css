@@ -27,7 +27,10 @@ body{
     color:#2196F3;
 }
 /* Site nav */
-
+li {
+    list-style-type: none;
+    /* забираєм маркери */
+}
 .site-nav .link{
     color: var(--title-text-color);
     font-weight: 500; 
